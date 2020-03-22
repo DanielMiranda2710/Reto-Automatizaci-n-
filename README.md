@@ -47,4 +47,4 @@ Escenario 2: Adicionar un elemento al carrito de compras.
 
 ## Comentarios
  •Se cumplen todos los flujos estipulados en los criterios de aceptación.
- •La librería assertions es usada en selenium, para las respectivas validaciones de este ejercicio se utilizó seeThat que es propia de serenity.
+ •Para las validaciones se utiliza el seeThat
