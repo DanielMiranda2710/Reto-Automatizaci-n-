@@ -41,10 +41,10 @@ El proyecto cuenta con dos escenarios.
 Escenario 1: registro.
 	El usuario se registra correctamente llenando todos los campos del formulario al final se hace la validación en la barra de navegación que el nombre de usuario haya quedado sido creado.
 Escenario 2: Adicionar un elemento al carrito de compras.
-	•El primer paso es que el usuario inicia sesión en el portal con las respectivas credenciales creadas en el escenario 1.
-	•Luego procede a buscar una Laptop y se selecciona una aleatoriamente ya que se creó    una función para escoger un producto aleatoriamente, esta función puede ser vista en el paquete de utils, el nombre de la clase es Utilities y el método se llama listProducts.
-	•Por último se agrega el archivo al carrito de compras y la respectiva validación es que al momento de entrar al botón del carrito se vea algún número dentro de un paréntesis indicando que se adicionó alguna compra al carrito.
+	• El primer paso es que el usuario inicia sesión en el portal con las respectivas credenciales creadas en el escenario 1.
+	• Luego procede a buscar una Laptop y se selecciona una aleatoriamente ya que se creó    una función para escoger un producto aleatoriamente, esta función puede ser vista en el paquete de utils, el nombre de la clase es Utilities y el método se llama listProducts.
+	• Por último se agrega el archivo al carrito de compras y la respectiva validación es que al momento de entrar al botón del carrito se vea algún número dentro de un paréntesis indicando que se adicionó alguna compra al carrito.
 
 ## Comentarios
-•Se cumplen todos los flujos estipulados en los criterios de aceptación.
-•Para las validaciones se utiliza el seeThat
+• Se cumplen todos los flujos estipulados en los criterios de aceptación.
+• Para las validaciones se utiliza el seeThat
