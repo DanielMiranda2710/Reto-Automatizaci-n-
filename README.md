@@ -10,7 +10,7 @@ y clonar el repositorio.
 - Instalar dependencias y plugins requeridos para su correcto funcionamiento. 
 - No requiere instalación de drivers de los navegadores ya que estos están guardados en la carpeta src/main/resources/drivers.
 
-## Explicacion del proyecto:
+## Explicacion del proyecto
 - El proyecto cuenta con una carpeta llamada features, el cual se encuentra en el folder src/test/resources. En esta carpeta features estan todos los archivos .feature donde se muestran los escenarios que se están validando en la automatizacion. 
 Si se desea agregar nuevos escenarios de prueba se deben agregar en el archivo .feature que mas se relacione con lo que se desee probar, en estos archivos .feature es donde se dejan consignados los datos de prueba, por lo que si se requiere cambiar los datos de prueba se debe recurrir a los archivos feature y hacer sus respectivas modificaciones de datos.
 - Se cuenta con un archivo serenity.properties que se encuentra en la raíz del proyecto, en el cual se encuentra el nombre del navegador web con el cual se hará la prueba, por el momento se encuentra parametrizado para Chrome ya que este se recomienda por ser el más estable a la hora de hacer pruebas mediante controlador webdriver.
@@ -28,7 +28,7 @@ El proyecto cuenta con la automatización de los siguientes flujos:
 • Hacer uso de alguna librería de assertions. 
 • Crear un repositorio público en github y compartir el enlace para la verificación, asegúrese que todos test generados se ejecuten correctamente.
 
-## Ejecución:
+## Ejecución
 Para ejecutar el proyecto se puede usar JUnit o desde gradle, se recomienda ejecutar mediante gradle en la línea de comandos o desde la consola propia del IDE para que quede la evidencia que el framework de serenity brinda tras la ejecución de una prueba.
 
 Los datos de los diferentes campos podrían enviarse como parámetros del sistema pero esto se recomienda es para el uso de los Pipelines, para practicidad en este proyecto los datos son quemados en el paquete tasks para así dejar los archivos .feature en lenguaje Gherkin tradicional para ser interpretado más sencillamente.
@@ -48,8 +48,3 @@ Escenario 2: Adicionar un elemento al carrito de compras.
 ## Comentarios
  •Se cumplen todos los flujos estipulados en los criterios de aceptación.
  •La librería assertions es usada en selenium, para las respectivas validaciones de este ejercicio se utilizó seeThat que es propia de serenity.
-
-
-
-
-
