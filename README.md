@@ -18,11 +18,15 @@ Si se desea agregar nuevos escenarios de prueba se deben agregar en el archivo .
 
 ## Alcance
 El proyecto cuenta con la automatización de los siguientes flujos:
+
 • Dar de alta un usuario. 
+
 • Iniciar sesión en el sitio con el usuario creado. 
+
 • Adicionar un elemento al carrito de compras.
 
 ## Criterios de Aceptación
+
 • Puede hacer uso de cualquier metodología o arquitectura a nivel de pruebas automatizadas (POM- SerenityBDD, screenplay). 
 
 • Redactar los escenarios en lenguaje Gherkin (Es un plus).
@@ -44,6 +48,7 @@ El proyecto cuenta con dos escenarios.
 Escenario 1: registro.
 	El usuario se registra correctamente llenando todos los campos del formulario al final se hace la validación en la barra de navegación que el nombre de usuario haya quedado sido creado.
 Escenario 2: Adicionar un elemento al carrito de compras.
+
 • El primer paso es que el usuario inicia sesión en el portal con las respectivas credenciales creadas en el escenario 1.
 
 • Luego procede a buscar una Laptop y se selecciona una aleatoriamente ya que se creó    una función para escoger un producto
