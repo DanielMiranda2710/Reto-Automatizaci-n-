@@ -4,7 +4,7 @@ Dicho proyecto se realizó mediante el framework de SerenityBDD, además con el 
 # CONTENIDO
 ##	Adecuacion del proyecto: 
 Para configurar el proyecto en la maquina para su modificación se recomienda seguir los siguientes pasos:
-- Ingresar a la url donde se encuentra almacenado el proyecto en git, https://flujodetrabajot.visualstudio.com/Tuya%20Scrum/_git/AUT_PortalEmpresasBonos.Zambrano
+- Ingresar a la url donde se encuentra almacenado el proyecto en git, https://github.com/DanielMiranda2710/RetoAutomatizacion.git
 y clonar el repositorio.
 - Importar el proyecto clonado en su IDE de preferencia, se recomienda trabajar con IntelliJ IDEA o Eclipe.
 - Instalar dependencias y plugins requeridos para su correcto funcionamiento. 
@@ -45,8 +45,11 @@ Para ejecutar con Gradle y generar el reporte, basta con correr el comando Gradl
 
 ## Funcionamiento
 El proyecto cuenta con dos escenarios.
+
 Escenario 1: registro.
-	El usuario se registra correctamente llenando todos los campos del formulario al final se hace la validación en la barra de navegación que el nombre de usuario haya quedado sido creado.
+
+El usuario se registra correctamente llenando todos los campos del formulario al final se hace la validación en la barra de navegación que el nombre de usuario haya quedado sido creado.
+
 Escenario 2: Adicionar un elemento al carrito de compras.
 
 • El primer paso es que el usuario inicia sesión en el portal con las respectivas credenciales creadas en el escenario 1.
