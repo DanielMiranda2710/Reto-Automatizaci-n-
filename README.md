@@ -59,7 +59,4 @@ aleatoriamente, esta función puede ser vista en el paquete de utils, el nombre 
 
 • Por último se agrega el archivo al carrito de compras y la respectiva validación es que al momento de entrar al botón del carrito se vea algún número dentro de un paréntesis indicando que se adicionó alguna compra al carrito.
 
-## Comentarios
-• Se cumplen todos los flujos estipulados en los criterios de aceptación.
 
-• Para las validaciones se utiliza el seeThat
